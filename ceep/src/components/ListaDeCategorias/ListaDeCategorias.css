@@ -1,0 +1,32 @@
+.lista-categorias{
+    display:flex;
+    flex-direction: column;
+}
+.lista-categorias ul{
+    transform: translate(4rem);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.lista-categorias ul li{
+    
+    padding: 2rem 4rem;
+    margin-left: 2rem;
+    color: white;
+    background-color: #373f51;
+    border-radius: 1.5rem;
+    transform: scale(0.7);
+    font-size: 1.5rem;
+    
+    
+}
+
+.lista-categorias input{
+    width: 100%;
+    margin-right: 3rem;
+    transform: scale(0.7);
+    font-size: 2rem;
+    border-radius: 0.8rem;
+}
