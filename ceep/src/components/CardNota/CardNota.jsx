@@ -18,6 +18,7 @@ class CardNota extends Component {
 						alt="delete"
 						className="card-button_delete"
 						onClick={this.apagar.bind(this)} />
+					<h4>{this.props.categoria}</h4>
 				</header>
 				<p className="card-nota_texto">{this.props.texto}</p>
 			</section>
